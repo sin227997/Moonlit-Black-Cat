@@ -1,0 +1,74 @@
+body{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  color: black;
+  
+}
+.Main-Todo{
+  width: auto;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+
+  
+}
+.Butt-1{
+  width: 78px;
+  height: 22px;
+  margin-top: 10px;
+  background-color: white;
+  border-style: hidden;
+  list-style: none;
+
+}
+.Add-1{
+  display: flex;
+  justify-content: center;
+}
+.Text-Box{
+  width: 400px;
+  height: 40px;
+  margin: 20px 10px 10px 30px;
+  border-radius: 10px;
+}
+.butt-todo{
+  height: 45px;
+  width: 120px;
+  border-radius: 10px;
+  background-color: rgb(102, 195, 238);
+
+}
+.Box-Content{
+  width: 600px;
+  height: 400px;
+  
+}
+.Check-Box{
+  height: 20px;
+  width: 30px;
+  border-radius: 20px;
+  
+}
+.Box-Item{
+  display: flex;
+  justify-content: space-between;
+}
+.butt-del{
+  
+  background-color: white;
+  border-style: none;
+}
+.HeaderTodo{
+  width: auto;
+  height: 40px;
+  margin-left: 45%;
+  font-size: 32px;
+  color: rgb(46, 133, 133);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+  
+
