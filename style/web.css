@@ -1,0 +1,615 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+    
+
+}
+html{
+    font-size: 16px;
+    scroll-behavior: smooth;
+    --font-family: 'Playfair Display', serif;
+    --red:#2C2F24 ;
+    --void:'DM Sans', sans-serif;
+    background-color: #FFFFFF;
+    --brcolors: #F9F9F7;
+    --fontcolor: #414536;
+}
+ul,ol,li{
+    list-style: none;
+}
+.Header{
+    background-color: #FFFFFF;
+    height: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+    
+    
+}
+.Tru{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 152px;
+}
+.Img1{
+    color: black;
+    background-color: #e3e6f3;
+    display: block;
+    font-size: 34px;
+    font-weight: 700;
+    font-family: 'Playpen Sans', cursive;
+    border: 0;
+    padding: 16px;
+    
+}   
+.VTV{
+    display: flex;
+    flex-direction: column-reverse;
+    padding-right: 20px;
+    font-weight: 900;
+    
+    
+}
+.VT1{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: black;
+    padding-bottom: 16px;
+}
+.VT2{
+    padding: 20px;
+    font-family: 'DM Sans', sans-serif;
+    display: inline;
+    font-style: normal;
+    font-weight: 500;
+    color: var(--red);
+    
+
+
+   
+}
+.But{
+    
+    height: 27.2px;
+    color: black;
+    font-size: 17px;
+    display: flex;
+    justify-content: flex-end;
+    
+
+}
+
+
+.But_1{
+    padding: 10px;
+    font-family: 'DM Sans', sans-serif;
+    
+
+}
+.Gyu{
+    border-radius: 15px;
+    padding: 10px;
+    font-weight: 700;
+    background-color: white;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    transition: 0.5s;
+    border: 1.5px solid;
+
+
+}
+.Gyu:hover{
+    border: 1.5px solid;
+    background: rgb(158, 43, 8);
+    letter-spacing: 0.25em;
+    box-shadow: 0 0 35px rgb(158, 43, 8);
+}
+.Yet{
+    position: relative;
+    background: url(./image\ 110.png);
+    height: 800px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-around;
+    
+    
+
+    
+
+}
+
+
+.Yut{
+    width:729px; 
+    height:729px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+.Yui{
+    font-family: 'Playfair Display', serif;
+    font-size: 100px;
+    font-weight: 400;
+    padding: 26px;
+
+}
+.Yti{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+
+}
+.Yyn{
+    display: flex;
+    
+}
+.Yuo{
+    background-color:rgb(158, 43, 8);
+    width: 163px;
+    height: 64px;
+    border-radius: 118px;
+    
+    padding: 20px;
+    margin: 16px;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    transition: 0.5s;
+}
+.Yuo:hover{
+    background: rgb(158, 43, 8);
+    letter-spacing: 0.25em;
+    box-shadow: 0 0 35px rgb(158, 43, 8);
+}
+.Yun{
+    width: 163px;
+    height: 64px;
+    border-radius: 118px;
+    padding: 20px;
+    margin: 16px;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    transition: 0.5s;
+
+}
+.Yun:hover{
+    background: rgb(235, 129, 9);
+    letter-spacing: 0.25em;
+    box-shadow: 0 0 35px rgb(235, 129, 9);
+}
+.Wrap{
+    padding: 16px;
+    font-family: 'Playfair Display', serif;
+    color: var(html);
+    font-size: 55px;
+    font-weight: 500;
+    text-align: center;
+}
+.Aoq{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.Aoe{
+    width: 306px;
+    height: 375px;
+    border: 2px solid #DBDFD0;
+    border-radius: 16px;
+    padding: 40px 34px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+}
+.Rat{
+    display: flex;
+    
+}
+.Rym{
+    width: 700px;
+    height:710px;
+    margin: 40px 90px 40px 90px;
+}
+.Ryt{
+    margin-top: 20px;
+    width: 557px;
+    height: 457px;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    justify-content: space-around;
+    text-align: left;
+}
+.Rui{
+    font-size: 55px;
+    font-weight: 600;
+    font-family: 'Playfair Display', serif;
+
+}
+.Rio{
+    font-size: 17px;
+    font-weight: 600;
+    font-family: 'DM Sans', sans-serif;
+
+}
+.Tio{
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'DM Sans', sans-serif;
+
+}
+.Tgn{
+    font-size: 16px;
+    width: 169px;
+    height: 64px;
+    border-radius: 118px;
+    gap: 10px;
+    border: 2px solid #2C2F24;
+    font-family: 'Playfair Display', serif;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    transition: 0.5s;
+    border: 1.5px solid;
+    margin-top: 10px;
+}
+.Tgn:hover{
+    background: rgb(235, 129, 9);
+    letter-spacing: 0.15em;
+    box-shadow: 0 0 35px rgb(235, 129, 9);
+    
+}
+.Tct{
+    display: flex;
+    flex-direction: column;
+}
+.Uff{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Ufy{
+    border-radius: 16px;
+    padding: 20px;
+    
+}
+.Uft{
+    border-radius: 16px;
+}
+.Ufi{
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'DM Sans', sans-serif;
+
+}
+
+.Hti{
+    width: 400px;
+    margin-top: 120px;
+    margin-left: 20px;
+}
+.Hyi{
+    margin-top: 120px;
+    display: flex;
+    
+    
+}
+.Hui{
+    display: flex;
+}
+.Hyu{
+    display: flex;
+    flex-direction: column;
+    margin-left: 24px;
+    
+    
+}
+.Hym{
+    margin-top: 150px;
+    margin-bottom: 24px;
+    
+}
+.Hpi{
+    margin-top: 249px;
+    margin-left: 90px;
+}
+.h2o{
+    font-size: 55px;
+    font-weight: 500;
+    font-family: var(--font-family);
+}
+.Hno{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--void);
+}
+.Hkp{
+    margin-top: 50px;
+
+}
+.Hoi{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: var(--void);
+    padding: 20px;
+    
+}
+.Kpo{
+    margin-top: 120px;
+}
+.Kio{
+    text-align: center;
+    font-family: var(--font-family);
+    font-size: 55px;
+    font-weight: 500;
+    padding-bottom: 64px;
+}
+.Kye{
+    display: flex;
+    
+}
+.Kyn{
+    width: 416px;
+    height: 408px;
+    margin: 0px 24px 135px 20px;
+    background-color: var(--brcolors);
+    border-radius: 12px;
+    padding: 45px 35px 0px 35px;
+    
+    
+}
+.Kyo{
+    border-bottom: 1px solid #DBDFD0;
+    padding-bottom: 32px;
+    margin-bottom: 32px;
+   
+}
+.Kun{
+    padding-top: 24px;
+    margin-bottom: 9px;
+    font-style: var(--void);
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--fontcolor) ;
+}
+
+
+
+.Kym{
+    width: 416px;
+    height: 408px;
+    margin: 0px 24px 135px 20px;
+    background-color: var(--brcolors);
+    border-radius: 12px;
+    padding: 45px 35px 0px 35px;
+}
+.Kyb{
+    width: 416px;
+    height: 408px;
+    margin: 0px 34px 135px 20px;
+    background-color: var(--brcolors);
+    border-radius: 12px;
+    padding: 45px 35px 0px 35px;
+}
+Koh{
+    margin-top: 10px;
+}
+.Kol{
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+}
+.Kon{
+    padding-left: 20px;
+}
+.Kno{
+    font-size: 16px;
+    font-family: var(--void);
+    font-weight: 700;
+    color: #2C2F24;
+}
+.Kmo{
+    font-size: 16;
+    font-family: var(--void);
+    font-weight: 400;
+    color: var(--fontcolor);
+}
+.Mko{
+    background-color: #F9F9F7;
+    height: 1117px;
+    
+}
+.Mho{
+    padding: 120px 20px 64px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.Mbo{
+    font-size: 55px;
+    font-family: var(--font-family);
+    font-weight: 500;
+}
+.Mno{
+    position: relative;
+    width: 191px;
+    height: 64px;
+    border-radius: 118px;
+    background:#FFFFFF;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    transition: 0.5s;
+}
+.Mno:hover{
+    background-color:#AD343E;
+    letter-spacing: 0.15em;
+    box-shadow: 0 0 35px #AD343E;
+    
+}
+.Mno:before{
+    content: '';
+    position: absolute;
+    inset: 2s;
+    background: #27282c;
+}
+.Mvo{
+    display: flex;
+}
+.Mnp{
+    width: 636px;
+    height: 732px;
+    margin-right: 24px;
+    margin-left: 20px;
+}
+.Mbo{
+    margin-bottom: 50px;
+    border-radius: 20px;
+}
+.Mnv{
+    width: 568px;
+    height: 178px;
+    margin-left: 35px;
+    margin-right: 33px;
+    text-align: left;
+}
+.Mry{
+    margin-bottom: 15px;
+}
+.Mvb{
+    margin-bottom: 15px;
+}
+.Myu{
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px;
+}
+.Mui{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Muo{
+    width: 306px;
+    height: 354px;
+    margin-right: 24px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.Muy{
+    border-radius: 16px;
+    
+}
+
+.Muk{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.Bnm{
+    font-size: 20px;
+    font-family: var(--void);
+    font-weight: 700;
+
+}
+.Bvm{
+    font-size: 14px;
+    font-family: var(--void);
+    font-weight: 400;
+}
+.Qbo{
+    background-color: #474747;
+}
+.Qyt{
+    display: flex;
+    flex-direction: column;
+    padding-top: 128px ;
+    padding-left: 180px;
+}
+.Qer{
+    display: flex;
+    align-items: center;
+    height: 222px;
+    width: 293px;
+    
+}
+.Qro{
+    border-radius: 16px;
+}
+.Qym{
+    color: var(--brcolors);
+}
+.Qef{
+    height: 222px;
+    width: 293px
+}
+.Qet{
+    font-size: 16px;
+    font-family: var(--void);
+    font-weight: 400;
+    color: #ADB29E;
+    padding-bottom: 16px;
+
+
+}
+/* Dành cho điện thoại */
+@media all and (max-width: 480px) {
+    
+
+}
+@media all and (max-width: 1024px) {
+
+
+}
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+  
+
+
+    
+
