@@ -7,7 +7,6 @@ const Add = () => {
     <div className='Add-1'>
         <Addtodo></Addtodo>
         
-
     </div>
   )
 }
