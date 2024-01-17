@@ -1,9 +1,8 @@
 import { FaTrashCan } from "react-icons/fa6";
-
 import React, { useState } from 'react'
 
 const Addtodo = () => {
-//   const StorageJobs = JSON.parse(localStorage.getItem('Active'))
+
   const [todos, settodos] = useState([]);
   const [value, setvalue] = useState("");
 const handlerChange =(e) => {
