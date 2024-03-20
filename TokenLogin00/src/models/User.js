@@ -2,16 +2,16 @@ import mongoose from 'mongoose';
 
 const userSchema = new mongoose.Schema({
     email: { type: String, unique: true },
-    Họ và Tên:{
+    HọvàTên:{
         type: String
     },
-    Ngày Sinh Nhật:{
+    NgàySinhNhật:{
         type: String
     } ,
-    Nơi Sinh:{
+    NơiSinh:{
         type: String
     },
-    Quốc Tịch:{
+    QuốcTịch:{
         type: String
     },
     Password:{
@@ -21,4 +21,4 @@ const userSchema = new mongoose.Schema({
 
 const User = mongoose.model('User', userSchema);
 
-exports default User;
+export default User;
